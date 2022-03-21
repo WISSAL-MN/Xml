@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE cinematheque SYSTEM "cinematheque-v1.dtd">
+<?xml-model href="cinematheque-v1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<cinematheque>
+    <film>
+        <titre>Mon film 1</titre>
+        <realisateur>Ali</realisateur>
+        <date>2001-04-20</date>
+        <genre>fiction</genre>
+        <pays>Algerie</pays>
+    </film>
+    <film>
+        <titre>Mon film 2</titre>
+        <realisateur>Ahmed</realisateur>
+        <date>2012-12-12</date>
+        <genre>policier</genre>
+        <pays>Franco-Italien</pays>
+    </film>
+    <film>
+        <titre>Mon film 3</titre>
+        <realisateur>Imane</realisateur>
+        <date>2021-09-03</date>
+        <genre>comedie</genre>
+        <pays>Tunisien</pays>
+    </film>
+    <film>
+        <titre>Mon film 4</titre>
+        <realisateur>Mohamed</realisateur>
+        <date>2006-05-06</date>
+        <genre>comedie</genre>
+        <pays>Anglais</pays>
+    </film>
+</cinematheque>

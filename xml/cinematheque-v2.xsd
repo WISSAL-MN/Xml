@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cinematheque">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="film" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="titre" type="xs:string"/>
+                        <xs:attribute name="realisateur" type="xs:string"/>
+                        <xs:attribute name="date" type="xs:date"/>
+                        <xs:attribute name="genre" type="xs:string"/>
+                        <xs:attribute name="pays" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
