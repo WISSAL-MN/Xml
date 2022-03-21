@@ -1,0 +1,7 @@
+<!ELEMENT cinematheque (film+)>
+<!ELEMENT film EMPTY>
+<!ATTLIST film titre CDATA #REQUIRED>
+<!ATTLIST film realisateur CDATA #REQUIRED>
+<!ATTLIST film date CDATA #REQUIRED>
+<!ATTLIST film genre CDATA #REQUIRED>
+<!ATTLIST film pays CDATA #REQUIRED>

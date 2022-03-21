@@ -1,0 +1,7 @@
+<!ELEMENT cinematheque (film+)>
+<!ELEMENT film (titre, realisateur, date, genre, pays)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT pays (#PCDATA)>
