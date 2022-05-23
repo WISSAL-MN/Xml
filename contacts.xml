@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contacts>
+  <contact type="sim">
+    <lastname>Mustapha</lastname>
+    <firstname>Isac</firstname>
+    <phone>010332435</phone>
+    <age>21</age>
+  </contact>
+  <contact type="phone">
+    <lastname>Mohamed</lastname>
+    <firstname>Otmane</firstname>
+    <phone>010366635</phone>
+    <age>54</age>
+  </contact>
+  <contact type="phone">
+    <lastname>Amine</lastname>
+    <firstname>Islam</firstname>
+    <phone>011112435</phone>
+    <age>14</age>
+  </contact>
+  <contact type="sim">
+    <lastname>Ali</lastname>
+    <firstname>Ali</firstname>
+    <phone>0166632435</phone>
+    <age>13</age>
+  </contact>
+</contacts>
