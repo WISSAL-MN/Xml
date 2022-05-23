@@ -1,0 +1,29 @@
+// les import pour les utilitaires utilisés
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.Attribute;
+import javax.xml.stream.events.EndElement;
+import javax.xml.stream.events.StartElement;
+import javax.xml.stream.events.XMLEvent;
+
+
+public classe contact {
+ private String type;
+ private String lastname;
+ private String firstname;
+ private String phone;
+ private String age;
+// define getters and setters for all attributes
+ @Override
+ public String toString() {
+ return "Article [phone=" + phone + ", type=" + type + ", age="
+ + age + ", lastname=" + lastname + ", firstname=" + fistname + "]";
+ }
+}
